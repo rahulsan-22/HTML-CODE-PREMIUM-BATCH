@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Forms 😉</title>
+</head>
+<body>
+  <form action="https://www.flipkart.com/" method="post">
+    <fieldset>
+      <legend>Registration Form 🔥</legend>
+      <label for="name">Name:</label>
+      <input type="text" id="name" name="name" placeholder="Enter your name 💖" minlength="3" maxlength="10" required value="Rahul" readonly>
+      <br><br>
+      <label for="email">Email:</label>
+      <input type="email" id="email" name="email" placeholder="Enter your email 📧" disabled>
+      <br><br>
+      <label for="password">Password:</label>
+      <input type="password" id="password" name="password" autofocus>
+      <br><br>
+      <label for="age">Age:</label>
+      <input type="number" id="age" name="age" min="18" max="25" step="2">
+      <br><br>
+      <label for="phone">Phone:</label>
+      <input type="tel" id="phone" name="phone">
+      <br><br>
+      <label for="dob">Dob:</label>
+      <input type="week" name="week">
+      <input type="month" name="month">
+      <input type="date" name="date">
+      <input type="time" name="time">
+      <input type="datetime-local" name="datetime">
+      <br><br>
+      <label for="gender">Gender:</label>
+      <input type="radio" id="male" name="gender" value="Male" checked>
+      <label for="male">Male</label>
+      <input type="radio" id="female" name="gender" value="Female">
+      <label for="female">Female</label>
+      <br><br>
+      <label for="skills">Skills:</label>
+      <input type="checkbox" id="html" name="skills" value="Html" checked>
+      <label for="html">Html</label>
+      <input type="checkbox" id="css" name="skills" value="Css" checked>
+      <label for="css">Css</label>
+      <input type="checkbox" id="js" name="skills" value="Js">
+      <label for="js">Js</label>
+      <br><br>
+      <label for="photo">Upload Id:</label>
+      <input type="file" id="photo" name="photo" multiple accept=".pdf,.jpg">
+      <br><br>
+      <label for="color">Color:</label>
+      <input type="color" id="color" name="color">
+      <br><br>
+      <label for="brightness">Brightness:</label>
+      <input type="range" id="brightness" name="brightness">
+      <br><br>
+      <label for="country">Country:</label>
+      <select id="country" name="country">
+        <option value="NA" disabled selected>--Select Country--</option>
+        <option value="India">India</option>
+        <option value="China">China</option>
+        <option value="Australia">Australia</option>
+      </select>
+      <br><br>
+      <label for="feedback">Feedback:</label>
+      <textarea id="feedback" rows="10" cols="100" name="feedback"></textarea>
+      <br><br>
+      <input type="submit" value="Register 💖">
+      <input type="reset">
+    </fieldset>
+  </form>
+</body>
+
+</html>
